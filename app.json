@@ -33,6 +33,20 @@
       "typedRoutes": true
     },
     "name": "tv-demo",
-    "slug": "tv-demo"
+    "slug": "tv-demo",
+    "android": {
+      "package": "com.qianzhiwei5921.tvdemo"
+    },
+    "ios": {
+      "bundleIdentifier": "com.qianzhiwei5921.tvdemo"
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "052bfcd4-d09e-4488-855d-ad6eda8a964a"
+      }
+    }
   }
 }
